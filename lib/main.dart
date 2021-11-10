@@ -29,7 +29,7 @@ class _CalculatorState extends State<Calculator> {
     return Container(
       child: RaisedButton(
         onPressed: () {
-
+          //in discord
         },
         child: Text(
           btntxt,
@@ -63,7 +63,7 @@ class _CalculatorState extends State<Calculator> {
               children: [
                 Padding(
                   padding: EdgeInsets.all(10.0),
-
+                 //in discord
                 ),
               ],
             ),
@@ -120,7 +120,7 @@ class _CalculatorState extends State<Calculator> {
               children: [
                 RaisedButton(
                   padding: EdgeInsets.fromLTRB(34, 20, 128, 20),
-                  onPressed: () {},
+                  onPressed: () {},//in discord
                   shape: StadiumBorder(),
                   child: Text(
                     "0",
@@ -137,5 +137,6 @@ class _CalculatorState extends State<Calculator> {
       ),
     );
   }
-}
 
+
+}
