@@ -241,11 +241,11 @@ class _CalculatorState extends State<Calculator> implements Add, Div, Mul, Sub{
     numOne = double.parse(result);
     return doesContainDecimal(result);
   }
-  /*String div() {
+  String div() {
     result = (numOne / numTwo).toString();
     numOne = double.parse(result);
     return doesContainDecimal(result);
-  }*/
+  }
 
 
   String doesContainDecimal(dynamic result) {
