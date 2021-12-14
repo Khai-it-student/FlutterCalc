@@ -24,7 +24,7 @@ class Calculator extends StatefulWidget {
   CalculatorState createState() => CalculatorState();
 }
 
-class CalculatorState extends State<Calculator> {
+class _CalculatorState extends State<Calculator> {
   Widget calcbutton(String btntxt, Color btncolor, Color txtcolor) {
     return Container(
       child: RaisedButton(
